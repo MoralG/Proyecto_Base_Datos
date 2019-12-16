@@ -1,12 +1,10 @@
-# Proyecto Base Datos
+# Proyecto Base Datos. Conflictos Bélicos
 
-## Conflictos Bélicos
-
-### Fase 1: [Diseño y Normalización de la Base de Datos]()
+## Fase 1: [Diseño y Normalización de la Base de Datos]()
 
 #### Una organización internacional pretende realizar un seguimiento de los conflictos bélicos que se producen en todo el mundo. Para ello creará una BD que responderá a un analisis del [enunciado](https://github.com/MoralG/Proyecto_Base_Datos/blob/master/Enunciado_Dise%C3%B1o.md#conflictos-b%C3%A9licos) de conflictos bélicos para crear el [diseño de entidad relación](https://raw.githubusercontent.com/MoralG/Proyecto_Base_Datos/master/Programa_Fase1.png).
 
-### Fase 2: [Creación de la Base de Datos. Carga de datos]()
+## Fase 2: [Creación de la Base de Datos. Carga de datos]()
 
 #### Tablas a Generar:
 
@@ -53,7 +51,7 @@ continuación:
 |Productos                                 |     10                |
 |Campos de refugiados                      |     6                 |
 
-### Fase 3: Explotación de la Base de Datos. Operaciones DML
+## Fase 3: [Explotación de la Base de Datos. Operaciones DML]()
 
 #### Sobre la base de datos creada en la Fase 2, realiza las siguientes operaciones:
 
@@ -86,7 +84,7 @@ mismo.
 los conflictos en los que han participado junto con la fecha en que se retiraron del
 último de ellos.
 
-### Fase 4: Explotación de la Base de Datos mediante PL/SQL
+## Fase 4: [Explotación de la Base de Datos mediante PL/SQL]()
 
 #### Sobre la base de datos creada en la Fase 2, realiza las siguientes operaciones:
 
