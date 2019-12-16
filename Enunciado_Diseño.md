@@ -1,0 +1,35 @@
+## Conflictos Bélicos
+
+#### Una organización internacional pretende realizar un seguimiento de los conflictos bélicos que se producen en todo el mundo. Para ello creará una BD que responderá al siguiente análisis:
+
+Se entiende por conflicto cualquier lucha armada que afecte a uno o varios países y en el cual se produzcan muertos y/o heridos. Todo conflicto se identificará por un nombre que habitualmente hará referencia a la zona o causa que provoca el conflicto, aunque dado que este nombre puede cambiar con el piso del tiempo, dentro de la BD cada conflicto se identificará mediante un código numérico sin significado alguno. Para cada conflicto se desea recoger los países a que afecta, así como el número de muertos y heridos contabilizados hasta el momento.
+
+Los conflictos pueden ser de distintos tipos según la causa que lo ha originado, clasificándose, a lo sumo, en cuatro grupos: territoriales, religiosos, económicos o raciales, en cada uno de estos grupos se recogerán diversos datos. En los conflictos territoriales se recogerán las regiones afectadas, en los religiosos las religiones implicadas, en los económicos las materias primas en disputa y la situación de los yacimientos más importantes de las mismas y en los raciales las etnias enfrentadas.
+
+En los conflictos intervienen diversos grupos armados (al menos dos) y diversas organizaciones mediadoras (podría no haber ninguna). Los mismos grupos armados y organizaciones mediadoras pueden intervenir en diferentes conflictos. Tanto los grupos armados como las organizaciones mediadoras podrán entrar y salir del conflicto, en ambos casos se recogerá tanto la fecha de incorporación como la fecha de salida. Temporalmente, tanto un grupo armado como una organización mediadora podrían no intervenir en conflicto alguno.
+
+De cada grupo armado se recoge el código que se le asigna y un nombre. Cada grupo armado dispone de al menos una división y es liderado por al menos un líder político. Las divisiones de que dispone un grupo armado se numeran consecutivamente y se registra la cantidad de armamento junto con su tipo y el número de hombres de que dispone, asimismo se recoge el número de bajas que ha tenido. Para los grupos armados se recoge el número de bajas como suma de las bajas producidas en todas sus divisiones.
+
+Los traficantes de armas suministran diferentes tipos de arma a los grupos armados. De cada tipo de armas se recoge un nombre y un indicador de su capacidad destructiva. De cadatraficante se recoge un nombre, los diferentes tipos de arma que puede suministrar y cantidad de armas de cada uno de los tipos de arma que podría suministrar. Se mantiene el número total de armas de cada uno de los diferentes tipos de armas suministrado por cada traficante a cada grupo armado.
+
+Los líderes políticos se identifican por su nombre y por el código de grupo armado que lideran. Además se recoge una descripción textual de los apoyos que éste posee.
+
+Cada división la pueden dirigir conjuntamente un máximo de tres jefes militares, aunque cada jefe militar no dirige más de una división. A cada jefe militar se le identifica por un código, además se recoge el rango que éste posee, y dado que un jefe militar no actúa por iniciativa propia sino que siempre obedece las órdenes de un único líder político de entre aquellos que lideran al grupo armado al que el jefe pertenece, se registrará el líder político al que obedece.
+Una o varias divisiones pueden verse implicadas en diversos actos de guerra (batallas, escaramuzas, etc...) a lo largo del conflicto. De dichos actos de guerra se almacenará el lugar exacto, la fecha, el número de bajas de todos los participantes y el número de bajas civiles si las hubiera.
+
+De las organizaciones mediadoras se recogerá su código, su nombre, su tipo (gubernamentales no gubernamental o internacional), la organización de que depende (una como máximo), el número de personas que mantiene desplegadas en cada conflicto y el tipo de ayuda que presta en cada conflicto que será de uno y sólo uno de los tres tipos siguientes, médica, diplomática o presencial.
+
+Con diversos fines, los líderes políticos dialogan con las organizaciones; se desea recoger explícitamente esta información. Así para cada líder se recogerán aquellas organizaciones con que dialoga y viceversa. Estos procesos de diálogo pueden realizarse a lo largo de varias sesiones, a las que no tienen porque acudir todas las partes involucradas en el
+conflicto.
+
+De cada sesión que se haya producido, se almacenará fecha y lugar, junto con los asistentes de cada participante y las propuestas de cada uno de ellos. Cada propuesta puede provocar una respuesta en otra de las partes. Es importante para la negociación saber que respuesta ha provocado una propuesta concreta en cada una de las partes. También se guardará una
+conclusión de cada sesión.
+
+En ocasiones, la conclusión de una ronda de negociaciones es un Acuerdo de Paz. En ese caso, hay que almacenar información de las condiciones que pone cada grupo armado para el alto el fuego, si éste es definitivo o temporal (en cuyo caso hay que saber qué periodo de tiempo contempla)
+
+Cada grupo armado cuenta con una serie de aliados internacionales que pueden tener un papel activo en el conflicto (proporcionando armamento o interviniendo en las negociaciones) o bien pueden mantenerse en la sombra, esperando el momento adecuado para intervenir.En ocasiones, los aliados dejan de respaldar a un grupo armado, muchas veces de forma temporal. En cualquier caso, debemos conocer los aliados de cada grupo armado en un momento preciso.
+
+Por otro lado, debemos conocer las acciones de ayuda humanitaria que se están llevando a cabo en la zona del conflicto. De las acciones de ayuda humanitaria hay que conocer quien es la organización que la promueve, los envíos de ayuda que incluye y exactamente qué productos envía y en qué cantidad en cada uno de estos envíos. Así mismo, hay que saber si alguna de las partes en conflicto está poniendo dificultades a la llegada de ayuda humanitaria, recogiendo información de las posibles intercepciones de la misma (lugar, fecha y división responsable de la intercepción).
+Estas acciones suelen ir dirigidas a uno o varios campos de refugiados. De ellos hay que conocer su población aproximada de adultos y niños cada día del conflicto.
+
+Es frecuente que durante los conflictos se produzcan violaciones de los derechos humanos. Se debe almacenar información sobre el tipo de violación (tortura, asesinato de civiles, violaciones, etc...), el lugar, la fecha, el número de afectados, el responsable de la división o divisiones implicadas y las pruebas de distintos tipos (fotos, vídeos, etc...) que existan de esa violación. Esta información será aportada a los Juicios por Crímenes de Guerra que se realicen internacionalmente, de los que se desea almacenar fecha de comienzo y fin, acusados (líderes políticos o militares) y veredicto para cada uno de ellos. Una misma acción no puede ser juzgada más de una vez, pero un acusado puede tener varios juicios diferentes.
