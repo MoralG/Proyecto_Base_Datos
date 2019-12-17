@@ -1,14 +1,14 @@
 e# Proyecto Base Datos. Conflictos Bélicos
 
-## Fase 1: [Diseño y Normalización de la Base de Datos]()
+## Fase 1: [Diseño y Normalización de la Base de Datos](https://github.com/MoralG/Proyecto_Base_Datos/blob/master/Fase1_Dise%C3%B1o.md#fase-1-dise%C3%B1o-y-normalizaci%C3%B3n-de-la-base-de-datos)
 
-#### Una organización internacional pretende realizar un seguimiento de los conflictos bélicos que se producen en todo el mundo. Para ello creará una BD que responderá a un analisis del [enunciado]() de conflictos bélicos para crear el [diseño de entidad relación]().
+#### Una organización internacional pretende realizar un seguimiento de los conflictos bélicos que se producen en todo el mundo. Para ello creará una BD que responderá a un analisis del [enunciado](https://github.com/MoralG/Proyecto_Base_Datos/blob/master/fase1/Enunciado_Dise%C3%B1o.md#conflictos-b%C3%A9licos) de conflictos bélicos para crear el [diseño de entidad relación](https://raw.githubusercontent.com/MoralG/Proyecto_Base_Datos/master/fase1/Programa_Fase1.png).
 
 ## Fase 2: [Creación de la Base de Datos. Carga de datos]()
 
 #### Tablas a Generar:
 
-![Fase2](Fase2.png)
+![Fase2](image/Fase2.png)
 
 * Revisar si hubiera algun fallo de entidad relación y corregirlo. 
 * Creación de las tablas: Los tipos de datos y el tamaño de las columnas deben ser asignados correctamente por el

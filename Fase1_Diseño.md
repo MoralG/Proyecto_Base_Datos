@@ -1,8 +1,8 @@
 ## Fase 1: Diseño y Normalización de la Base de Datos
 
-* Enunciado de la tarea [AQUÍ]()
-* Fichero xml del diseño entidad relación [AQUÍ]()
-* Imagen png del diseño entidad relación [AQUÍ]()
+* Enunciado de la tarea [AQUÍ](https://github.com/MoralG/Proyecto_Base_Datos/blob/master/fase1/Enunciado_Dise%C3%B1o.md#conflictos-b%C3%A9licos)
+* Imagen png del diseño entidad relación [AQUÍ](https://raw.githubusercontent.com/MoralG/Proyecto_Base_Datos/master/fase1/Programa_Fase1.png)
+* Fichero xml del diseño entidad relación [AQUÍ](https://github.com/MoralG/Proyecto_Base_Datos/blob/master/fase1/Programa_Fase1.xml)
 
 #### Desglosaremos el enunciado exponiendo las partes del diseño:
 
