@@ -1,4 +1,4 @@
-e# Proyecto Base Datos. Conflictos Bélicos
+# Proyecto Base Datos. Conflictos Bélicos
 
 ## Fase 1: [Diseño y Normalización de la Base de Datos](https://github.com/MoralG/Proyecto_Base_Datos/blob/master/Fase1_Dise%C3%B1o.md#fase-1-dise%C3%B1o-y-normalizaci%C3%B3n-de-la-base-de-datos)
 
