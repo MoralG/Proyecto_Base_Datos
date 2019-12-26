@@ -28,12 +28,10 @@ De cada grupo armado se recoge el código que se le asigna y un nombre. Cada gru
 
 Los líderes políticos se identifican por su nombre y por el código de grupo armado que lideran. Además se recoge una descripción textual de los apoyos que éste posee.
 
-![Diseño](image/Diseño1.4.png)
-------------------------------------------------------------------------------------------------
 Cada división la pueden dirigir conjuntamente un máximo de tres jefes militares, aunque cada jefe militar no dirige más de una división. A cada jefe militar se le identifica por un código, además se recoge el rango que éste posee, y dado que un jefe militar no actúa por iniciativa propia sino que siempre obedece las órdenes de un único líder político de entre aquellos que lideran al grupo armado al que el jefe pertenece, se registrará el líder político al que obedece.
 Una o varias divisiones pueden verse implicadas en diversos actos de guerra (batallas, escaramuzas, etc...) a lo largo del conflicto. De dichos actos de guerra se almacenará el lugar exacto, la fecha, el número de bajas de todos los participantes y el número de bajas civiles si las hubiera.
 
-![Diseño](image/Diseño1.5.png)
+![Diseño](image/Diseño1.4.png)
 ------------------------------------------------------------------------------------------------
 Con diversos fines, los líderes políticos dialogan con las organizaciones; se desea recoger explícitamente esta información. Así para cada líder se recogerán aquellas organizaciones con que dialoga y viceversa. Estos procesos de diálogo pueden realizarse a lo largo de varias sesiones, a las que no tienen porque acudir todas las partes involucradas en el
 conflicto.
